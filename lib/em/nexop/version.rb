@@ -1,5 +1,5 @@
 module EventMachine
-  module Sshd
+  module Nexop
     VERSION = "0.0.1"
   end
 end

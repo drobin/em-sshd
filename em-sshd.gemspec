@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'em/sshd/version'
+require 'em/nexop/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "em-sshd"
-  spec.version       = EventMachine::Sshd::VERSION
+  spec.version       = EventMachine::Nexop::VERSION
   spec.authors       = ["Robin Doer"]
   spec.email         = ["robin@robind.de"]
   spec.description   = %q{TODO: Write a gem description}

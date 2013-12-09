@@ -1,9 +1,9 @@
 require "eventmachine"
 
-require "em/sshd/version"
+require "em/nexop/version"
 
 module EventMachine
-  module Sshd
+  module Nexop
     # Your code goes here...
   end
 end
