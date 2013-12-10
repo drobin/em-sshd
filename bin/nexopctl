@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require 'getoptlong'
+require 'em/sshd'
+
+opts = GetoptLong.new(
+  [ '--help', '-h', GetoptLong::NO_ARGUMENT ]
+)
+
+opts.each do |opt, arg|
+  case opt
+  when '--help'
+    puts <<-EOF
+#{File.basename($0)} [options] <command>
+    EOF
+  end
+end
