@@ -14,5 +14,9 @@ module EventMachine
   class Sshd < Connection
     include EventMachine::Nexop
     include EventMachine::Nexop::Server
+
+    def initialize(hostkey)
+      @hostkey = hostkey
+    end
   end
 end
